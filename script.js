@@ -1,5 +1,14 @@
 function firstWord(s) {
-  // your code here
+    let ans=""
+    
+    
+    for(let i=0;i<=s.length;i++){
+        if(s.trim().charAt(i)==" ")  {
+        break;
+      }
+      ans+=s.trim().charAt(i);
+    }
+    return ans;
 }
 
 // Do not change the code below
